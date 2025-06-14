@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Login</title>
+    <link rel="icon" href="./images/33.webp">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <div id="navbar-container"></div>
+
+
+<section id="x">
+    <div class="text-center w-100">
+        <h1>Smart Login System</h1>
+        <br>
+        <input id="signinEmail" class="form-control my-3" placeholder="Enter your email" type="text">
+       <p id="incorrect" class="text-danger"></p>
+
+        <input id="signinPassword" class="form-control my-3" placeholder="Enter your password" type="password">
+        <p id="incorrect" class="text-danger"></p>
+        <button onclick="login(this)" class="btn btn-outline-info w-100 my-3">Login</button>
+        <p class="text-white">Don’t have an account? <a class="text-white" href="#" onclick="signup()">Sign Up</a></p>
+    </div>
+</section>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

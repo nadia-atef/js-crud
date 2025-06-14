@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #3b454a;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+
+section {
+    background-color: #3b454a;
+    width: 75%;
+    height: auto;
+    min-height: 500px;
+    margin: 100px auto 0 auto; 
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
