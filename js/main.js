@@ -164,8 +164,8 @@ function logout(){
 function validationForm(element) {
   var regeX = {
     signupName: /^[A-Z][\w-]{3,18}\S?\w{0,8}$/,
-    signupEmail: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, // تم تعديل regex للإيميل ليكون صحيحًا
-    signupPassword: /^.{6,}$/ // مثال: على الأقل 6 حروف
+    signupEmail: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, 
+    signupPassword: /^.{6,}$/ 
   };
 
   if (regeX[element.id] && regeX[element.id].test(element.value)) {
