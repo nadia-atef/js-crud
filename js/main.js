@@ -101,11 +101,12 @@ if (isFound) {
     </nav>
   `;
 
-  // عرض الترحيب
   x.innerHTML = `
     <h1 class="text-white mt-5">Welcome, ${user.name}!</h1>
   `;
-} else {
+} 
+
+else {
   var d = document.getElementById("incorrect");
   d.innerHTML = "Incorrect email or password";
   d.classList.add("text-danger"); 
